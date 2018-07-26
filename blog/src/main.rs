@@ -145,7 +145,7 @@ impl Renderable<Model> for Model {
         html! {
             // Render your model here
             <div id="root", class="fx-col",></div>
-            {title("The Tower")}
+            {title("The Rock")}
             {description("My personal blog. @xbgxwh@outlook.com")}
             {cards(self.cards.clone())}
             <div class="fx-1",></div>
