@@ -28,8 +28,6 @@ $ ROCKET_PORT=8080 cargo run
 
 Visit `http://localhost:8080/blog.html`.
 
----
-
 ![screenshot](https://raw.githubusercontent.com/FrontMage/rock/master/screenshots/rock.png)
 
 ![screenshot](https://raw.githubusercontent.com/FrontMage/rock/master/screenshots/wasm.png)
