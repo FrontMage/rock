@@ -1,0 +1,1 @@
+/Users/frontmage/rust/rock/blog/target/wasm32-unknown-unknown/release/blog.js
