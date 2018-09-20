@@ -1,0 +1,440 @@
+html,
+body,
+#root,
+#page,
+.page-container {
+  height: 100%; }
+
+.capital-group-page #capital-group-graph-container {
+  width: 100vw;
+  height: 93vh; }
+
+.capital-group-page .capital-group-form {
+  position: absolute;
+  top: 8vh;
+  left: 3rem; }
+  .capital-group-page .capital-group-form .capital-group-input {
+    z-index: 310; }
+  .capital-group-page .capital-group-form .capital-group-form-group {
+    width: 20.5rem; }
+
+.capital-group-page .capital-group-table {
+  background: #fff;
+  height: 60vh;
+  overflow-y: scroll;
+  margin-top: 0.8rem; }
+
+.capital-group-page .capital-group-table::-webkit-scrollbar {
+  width: 1px;
+  background: transparent; }
+
+.root-page {
+  margin-top: 1rem; }
+  .root-page .root-menu-container {
+    position: absolute;
+    z-index: 101;
+    top: 0;
+    left: 3rem; }
+    .root-page .root-menu-container .relative-z-index-101 {
+      position: relative;
+      z-index: 101; }
+  .root-page .root-instance-table .root-instance-table-head {
+    width: 10rem; }
+  .root-page #relation-graph {
+    top: 0;
+    left: 0;
+    height: 86vh;
+    width: 100vw; }
+
+.holderLayers-page,
+.demo-page {
+  height: 100%;
+  margin-top: 1rem; }
+
+.demo-page .demo-forms-container {
+  position: absolute;
+  top: 0;
+  left: 3rem; }
+
+.demo-page .demo-form {
+  width: 12rem; }
+
+.demo-page #demo-graph-content {
+  height: 90vh;
+  top: 0;
+  left: 0; }
+
+.demo-page .demo-page-statistic {
+  position: absolute;
+  right: 5vw;
+  top: 5vh;
+  width: 30vw; }
+
+.holderLayers-page #holderLayers-graph {
+  height: 90vh; }
+
+.holderLayers-page .holder-layers-forms {
+  position: absolute;
+  z-index: 101;
+  top: 0;
+  left: 3rem; }
+
+.holderLayers-page .holder-layers-table {
+  position: absolute;
+  right: 0;
+  top: 5vh;
+  width: 30vw;
+  background-color: white; }
+
+.navigation-bar {
+  padding: 0.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.row-ph-2 {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.wiki-page {
+  height: 100%;
+  margin-top: 1rem; }
+  .wiki-page .tree {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    width: 16.4rem; }
+    .wiki-page .tree .tree-header {
+      padding: 0.1rem 0.2rem; }
+    .wiki-page .tree .tree-body {
+      padding-left: 0.6rem; }
+
+#sunburst {
+  padding-top: 1rem;
+  padding-left: 4rem; }
+
+#sidebar {
+  float: right;
+  width: 100px; }
+
+#sequence {
+  width: 600px;
+  height: 70px; }
+
+#legend {
+  padding: 10px 0 0 3px; }
+
+#sequence text,
+#legend text {
+  font-weight: 600;
+  fill: #fff; }
+
+#chart {
+  position: relative; }
+
+#chart path {
+  stroke: #fff; }
+
+#explanation {
+  position: absolute;
+  width: 8rem;
+  text-align: center;
+  color: #666;
+  z-index: -1; }
+
+#percentage {
+  font-size: 1rem; }
+
+.form-group:not(:last-child) {
+  margin-bottom: 0; }
+
+#webvowl-body {
+  width: 100%;
+  height: 100%; }
+
+.home-nav {
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  border-bottom: 0.05rem solid #e7e9ed;
+  font: bold 16px/45px 'Microsoft YaHei';
+  color: #50608f;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem; }
+  .home-nav a {
+    color: #50608f;
+    text-decoration: none;
+    border-bottom: 0.1rem solid transparent;
+    padding-bottom: 0.4rem; }
+  .home-nav a.active {
+    border-bottom-color: #fff; }
+  .home-nav .home-logo {
+    margin-left: 3rem;
+    margin-right: 4.25rem;
+    width: 6rem;
+    height: 2.2rem;
+    background-image: url("../images/logo.png"); }
+  .home-nav .home-nav-item {
+    margin-right: 2.25rem; }
+  .home-nav .home-menu {
+    color: #13287e; }
+
+.menu .menu-item > a {
+  margin: 0;
+  padding-left: 0.2rem;
+  padding: 0;
+  font-size: 0.75rem; }
+
+.home-banner {
+  background: -webkit-radial-gradient(center, ellipse, #4275a9 0%, #13287e 100%);
+  background: radial-gradient(ellipse at center, #4275a9 0%, #13287e 100%);
+  height: 94vh; }
+  .home-banner #home-canvas {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: absolute; }
+  .home-banner .home-slogan {
+    width: 43.7rem;
+    height: 30.15rem;
+    background: url("../images/slogan1.png"); }
+
+.home-title {
+  font: bold 1.85rem/1.85rem 'Microsoft YaHei';
+  color: #000;
+  padding: 3.5rem 0 0.5rem 0;
+  margin-top: 2rem; }
+
+.home-desc {
+  font: normal 0.8rem/1.8rem 'Microsoft YaHei';
+  color: #757575;
+  padding-bottom: 2.75rem; }
+
+.home-business .home-business-item {
+  margin-right: 8rem; }
+
+.home-business .home-business-title {
+  font-size: 18px;
+  color: #003;
+  line-height: 48px; }
+
+.home-business .home-business-desc {
+  font-size: 12px;
+  color: #757575;
+  line-height: 16px; }
+
+.home-image-profile {
+  width: 7.5rem;
+  height: 7.5rem;
+  background: url("../images/profile.png"); }
+  .home-image-profile:hover {
+    background: url("../images/profile.gif"); }
+
+.home-image-market {
+  width: 7.5rem;
+  height: 7.5rem;
+  background: url("../images/market.png"); }
+  .home-image-market:hover {
+    background: url("../images/market.gif"); }
+
+.home-image-relation {
+  width: 7.5rem;
+  height: 7.5rem;
+  background: url("../images/relation.png"); }
+  .home-image-relation:hover {
+    background: url("../images/relation.gif"); }
+
+.home-image-data {
+  width: 5.25rem;
+  height: 5.45rem;
+  background: url("../images/data.png"); }
+  .home-image-data:hover {
+    background: url("../images/data-yellow.png"); }
+
+.home-image-graph {
+  width: 5.25rem;
+  height: 5.45rem;
+  background: url("../images/graph.png"); }
+  .home-image-graph:hover {
+    background: url("../images/graph-yellow.png"); }
+
+.home-image-KirinTor {
+  width: 5.25rem;
+  height: 5.45rem;
+  background: url("../images/KirinTor.png"); }
+  .home-image-KirinTor:hover {
+    background: url("../images/KirinTor-yellow.png"); }
+
+.home-image-create {
+  width: 5.25rem;
+  height: 5.45rem;
+  background: url("../images/create.png"); }
+  .home-image-create:hover {
+    background: url("../images/create-yellow.png"); }
+
+.home-desc-item {
+  font: normal 0.6rem/0.8rem 'Microsoft YaHei';
+  color: #757575; }
+  .home-desc-item .home-desc-item-title {
+    font: normal 0.9rem/2.4rem 'Microsoft YaHei';
+    color: #000333;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem; }
+
+.home-container {
+  padding-left: 12rem;
+  padding-right: 12rem; }
+
+.home-image-xinguan {
+  width: 9.7rem;
+  height: 2.9rem;
+  background: url("../images/xinguan.png"); }
+
+.home-image-jingguan {
+  width: 9.7rem;
+  height: 2.9rem;
+  background: url("../images/jingguan.png"); }
+
+.home-image-xinxi {
+  width: 10.8rem;
+  height: 3rem;
+  background: url("../images/xinxi.png"); }
+
+.home-image-shenzhen {
+  width: 15.05rem;
+  height: 5.525rem;
+  background: url("../images/shenzhen.png");
+  -webkit-background-size: contain;
+          background-size: contain;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s; }
+  .home-image-shenzhen:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3); }
+
+.home-image-wuda {
+  width: 15.05rem;
+  height: 5.525rem;
+  background: url("../images/wuda.png");
+  -webkit-background-size: contain;
+          background-size: contain;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s; }
+  .home-image-wuda:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3); }
+
+.home-teal-bar {
+  width: 8.5rem;
+  height: 0.3rem;
+  background-color: #009085;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem; }
+
+.home-gstore {
+  margin-top: 5rem; }
+
+.home-footer {
+  margin-top: 0.4rem;
+  padding: 1rem 7rem;
+  font-family: 'Microsoft YaHei';
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #fff;
+  background: #304356; }
+  .home-footer .home-icon-footer {
+    width: 3.825rem;
+    height: 1.15rem;
+    background: url("../images/foot.png");
+    -webkit-background-size: contain;
+            background-size: contain; }
+
+.home-icon-pos {
+  width: 0.7rem;
+  height: 0.9rem;
+  background: url("../images/pos.png");
+  margin-right: 0.2rem; }
+
+.home-icon-email {
+  width: 0.9rem;
+  height: 0.85rem;
+  background: url("../images/email.png");
+  margin-right: 0.2rem; }
+
+.home-icon-phone {
+  width: 0.7rem;
+  height: 0.85rem;
+  background: url("../images/phone.png");
+  margin-right: 0.2rem; }
+
+.nav-icon-social {
+  margin-right: 2rem; }
+  .nav-icon-social .home-icon-weibo {
+    width: 0.9rem;
+    height: 0.9rem;
+    background: url("../images/weibo.png");
+    margin-right: 0.75rem;
+    border-radius: 100%; }
+  .nav-icon-social .home-icon-wechat {
+    width: 0.9rem;
+    height: 0.9rem;
+    background: url("../images/wechat.png");
+    border-radius: 100%; }
+
+.home-image-wechat {
+  width: 4.175rem;
+  height: 4.275rem;
+  background: url("../images/weixin.png");
+  -webkit-background-size: contain;
+          background-size: contain; }
+
+.home-copyright {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font: normal 0.6rem/3rem 'Microsoft YaHei';
+  color: #5a5a5a; }
+  .home-copyright .home-icon-badge {
+    width: 0.95rem;
+    height: 0.95rem;
+    background: url("../images/ga.png");
+    margin-right: 0.2rem;
+    margin-left: 2rem; }
+
+.home-icon-gstore {
+  width: 3.875rem;
+  height: 1.89375rem;
+  background: url("../images/gstore.jpg");
+  -webkit-background-size: contain;
+          background-size: contain;
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+.home-query-count .home-query-count-num {
+  font-size: 28px;
+  color: #f15333;
+  line-height: 30px; }
+
+#home-china-map {
+  margin-top: 1rem; }
+
+.home-monitors {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  .home-monitors .menu-mr {
+    margin-right: 3rem; }
+
+#monitor-page {
+  padding: 4rem;
+  padding-top: 2rem; }
+  #monitor-page .menu-mr {
+    margin-right: 1rem; }
+  #monitor-page #gstore-log {
+    height: 15rem; }
+  #monitor-page #gstore-log-divider {
+    height: 1rem; }
+  #monitor-page .fake-access-line {
+    width: 100%; }
+  #monitor-page .monitor-mr {
+    margin-right: 1.5rem; }

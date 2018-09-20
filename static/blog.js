@@ -1,1 +1,1 @@
-../blog/target/wasm32-unknown-unknown/release/blog.js
+/home/xinbg/Documents/home/target/wasm32-unknown-unknown/release/blog.js
